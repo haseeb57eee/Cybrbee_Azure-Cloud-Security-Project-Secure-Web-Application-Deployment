@@ -107,21 +107,11 @@ By the end of this project:
 
 ---
 
-## 📂 Repository Structure (Suggested)
-/docs → Project documentation
-/screenshots → Azure portal & configuration screenshots
-/web-app → Application source files
-/configs → WAF rules, notes, configurations
-
-yaml
-Copy code
-
----
-
 ## Future Improvements
 - Enable CI/CD pipeline with security scanning
 - Implement Azure Monitor & Log Analytics alerts
-- Replace the self-signed certificate with a CA-issued certificate
+- Incorporate a load balancer for multiple web application management
+- Include Jumphost for more secure accessibility and authorization
 - Add DDoS Protection Standard
 - Automate security compliance checks
 
